@@ -13,7 +13,7 @@ public class Point {
 
     @SuppressWarnings("checkstyle:WhitespaceAfter")
     public static void main(String[] args) {
-       double result =  Point.distance(0, 0, 2,  0);
+       double result =  Point.distance(32, 11, 54,  10);
        System.out.print("result from the first coordinate to the  second  is " + result);
     }
 }
