@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class SqAreaTest {
 
     @Test
-    public void test() {
+    public void whenp6k2then2() {
         double expected = 2;
         double p = 6;
         double k = 2;
@@ -17,8 +17,8 @@ public class SqAreaTest {
     }
 
     @Test
-    public void test2() {
-        double expected = 4.687;
+    public void whenp10k3then4dot68() {
+        double expected = 4.68;
         double p = 10;
         double k = 3;
         double out = SqArea.square(p, k);
@@ -26,7 +26,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void test3() {
+    public void whenp13k1dot5then10dot14() {
         double expected = 10.14;
         double p = 13;
         double k = 1.5;
