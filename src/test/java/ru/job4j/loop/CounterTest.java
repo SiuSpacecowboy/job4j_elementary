@@ -17,10 +17,8 @@ public class CounterTest {
 
     @Test
     public void whenSumEvenNumbersFromTwoToTwelveThenFortyTwo() {
-        int start = 3;
-        int finish = 16;
-        int result = Counter.sumByEven(3, 16);
-        int exp = 70;
+        int result = Counter.sumByEven(2, 12);
+        int exp = 42;
         Assert.assertEquals(exp, result);
     }
 }
