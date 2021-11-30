@@ -12,3 +12,4 @@ public class Mortgage {
         return y;
     }
 }
+
