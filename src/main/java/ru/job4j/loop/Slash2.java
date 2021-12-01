@@ -27,3 +27,4 @@ public class Slash2 {
         draw(5);
     }
 }
+
