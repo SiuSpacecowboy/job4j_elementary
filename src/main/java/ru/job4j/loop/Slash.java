@@ -6,7 +6,7 @@ public class Slash {
         if (size % 2 == 0) {
             for (int j = 0; j <= size; j++) {
                 for (int i = 0; i <= size; i++) {
-                    if (i + j == 2 * i || i + j == size || i + j == 0) {
+                    if (i + j == 2 * i || i + j == size) {
                         System.out.print("X");
                     } else {
                         System.out.print(" ");
@@ -17,7 +17,7 @@ public class Slash {
         } else {
             for (int j = 0; j <= size; j++) {
                 for (int i = 0; i <= size; i++) {
-                    if ((i + j == 2 * i && i < size) || i + j == size - 1 || i + j == 0) {
+                    if ((i + j == 2 * i && i < size) || i + j == size - 1) {
                         System.out.print("X");
                     } else {
                         System.out.print(" ");
