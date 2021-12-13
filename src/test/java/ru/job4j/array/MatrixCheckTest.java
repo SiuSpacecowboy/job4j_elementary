@@ -130,3 +130,4 @@ public class MatrixCheckTest {
         Assert.assertTrue(result);
     }
 }
+
