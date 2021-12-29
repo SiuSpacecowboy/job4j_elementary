@@ -54,7 +54,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenFourAtgs() {
+    public void whenFourArgs() {
         int left = 3;
         int right = 2;
         int third = 20;
