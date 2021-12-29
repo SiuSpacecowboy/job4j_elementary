@@ -7,14 +7,12 @@ public class Max {
         return result;
     }
 
-    public static int max(int left, int right, int third) {
-        int result = max(left, right) >= third ? max(left, right) : third;
-        return result;
+    public static int max(int first, int second, int third) {
+        return max(first, max(second, third));
     }
 
-    public static int max(int left, int right, int third, int four) {
-        int result = max(left, right, third) >= four ? max(left, right, third) : four;
-        return result;
+    public static int max(int first, int second, int third, int four) {
+        return max(first, max(second, third, four));
     }
 
     public static void main(String[] args) {
