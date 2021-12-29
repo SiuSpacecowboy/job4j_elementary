@@ -4,7 +4,16 @@ public class Max {
 
     public static int max(int left, int right) {
         int result = left >= right ? left : right;
+        return result;
+    }
 
+    public static int max(int left, int right, int third) {
+        int result = max(left, right) >= third ? max(left, right) : third;
+        return result;
+    }
+
+    public static int max(int left, int right, int third, int four) {
+        int result = max(left, right, third) >= four ? max(left, right, third) : four;
         return result;
     }
 

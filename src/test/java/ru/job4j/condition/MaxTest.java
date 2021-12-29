@@ -42,4 +42,25 @@ public class MaxTest {
         int exp = 8;
         Assert.assertEquals(exp, result);
     }
+
+    @Test
+    public void whenThreeArgs() {
+        int left = 5;
+        int right = 3;
+        int third = 10;
+        int res = Max.max(left, right, third);
+        int exp = 10;
+        Assert.assertEquals(exp, res);
+    }
+
+    @Test
+    public void whenFourAtgs() {
+        int left = 3;
+        int right = 2;
+        int third = 20;
+        int four = 30;
+        int res = Max.max(left, right, third, four);
+        int exp = 30;
+        Assert.assertEquals(exp, res);
+    }
 }
