@@ -39,3 +39,4 @@ public class Point {
         System.out.println(dist3d);
     }
 }
+
